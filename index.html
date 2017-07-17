@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="modal-switcher">
+        <!-- modaloverlay -->
+        <div id="add-modal">
+            <!-- modal -->
+            <a href="#close" class="close">&times;</a>
+            <!-- hide for now -->
+            <div style="width:550px;">
+                <iframe id="v_s1" src="https://player.vimeo.com/video/194521803" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <a id="pause" href="#"> pause 
+    </a>
+    <a id="play" href="#">play</a>
+    <a class="vm-modal">zoom</a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
